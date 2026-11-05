@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Top Lane Guides</title>
 <meta name="description" content="Unofficial League of Legends top lane guides for Camille, Riven and Gwen: runes, builds, combos and every matchup.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://holymolystar.github.io/">
+<meta property="og:url" content="https://holymolystar.github.io/hub/">
 <meta property="og:title" content="Top Lane Guides">
 <meta property="og:description" content="Camille, Riven and Gwen: runes, builds, combos and every top-lane matchup.">
-<meta property="og:image" content="https://holymolystar.github.io/og-image.png">
+<meta property="og:image" content="https://holymolystar.github.io/hub/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#11151c">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2311151c'/%3E%3Crect x='12' y='14' width='10' height='36' rx='3' fill='%23d8b25a'/%3E%3Crect x='27' y='14' width='10' height='36' rx='3' fill='%2345e0a0'/%3E%3Crect x='42' y='14' width='10' height='36' rx='3' fill='%237fb2ff'/%3E%3C/svg%3E">
@@ -53,7 +53,9 @@
   .guide:hover .go::after { margin-left: 4px; }
   footer { border-top: 1px solid var(--line); background: var(--bg-2); padding: 28px 0 40px; color: var(--text-dim); font-size: .86rem; }
   footer b { color: var(--text); }
+  :root[data-theme="light"] .guide .tag { color: var(--text-dim); }
 </style>
+<script>try{var t=localStorage.getItem("guides-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
 <header class="topbar">
@@ -69,12 +71,12 @@
   <section class="hero">
     <div class="eyebrow">Unofficial fan guides &middot; League of Legends</div>
     <h1>Pick your champion.</h1>
-    <p>Runes, builds, combos and a searchable sheet of every top-lane matchup. Each guide has the same layout, so switching between them is easy.</p>
+    <p>Runes, builds, combos and a difficulty board for every top-lane matchup. Each guide has the same layout, so switching between them is easy.</p>
   </section>
 
   <section class="guides">
-    <a class="guide" href="https://holymolystar.github.io/camille-guide/" style="--c:#d8b25a">
-      <img src="https://holymolystar.github.io/camille-guide/og-image.png" alt="Camille guide preview" loading="lazy">
+    <a class="guide" href="../camille-guide/" style="--c:#d8b25a">
+      <img src="../camille-guide/og-image.png" alt="Camille guide preview" loading="lazy">
       <div class="body">
         <span class="tag">The Steel Shadow</span>
         <h2>Camille</h2>
@@ -82,8 +84,8 @@
         <span class="go">Open guide</span>
       </div>
     </a>
-    <a class="guide" href="https://holymolystar.github.io/riven-guide/" style="--c:#45e0a0">
-      <img src="https://holymolystar.github.io/riven-guide/og-image.png" alt="Riven guide preview" loading="lazy">
+    <a class="guide" href="../riven-guide/" style="--c:#45e0a0">
+      <img src="../riven-guide/og-image.png" alt="Riven guide preview" loading="lazy">
       <div class="body">
         <span class="tag">The Exile</span>
         <h2>Riven</h2>
@@ -91,8 +93,8 @@
         <span class="go">Open guide</span>
       </div>
     </a>
-    <a class="guide" href="https://holymolystar.github.io/gwen-guide/" style="--c:#7fb2ff">
-      <img src="https://holymolystar.github.io/gwen-guide/og-image.png" alt="Gwen guide preview" loading="lazy">
+    <a class="guide" href="../gwen-guide/" style="--c:#7fb2ff">
+      <img src="../gwen-guide/og-image.png" alt="Gwen guide preview" loading="lazy">
       <div class="body">
         <span class="tag">The Seamstress</span>
         <h2>Gwen</h2>
